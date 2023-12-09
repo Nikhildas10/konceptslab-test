@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headerContainer {
+  padding: 2rem 7rem;
+}
+.header {
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  align-items: center;
+  background: #fff;
+  box-shadow: 10px 7px 72px 0px rgba(0, 81, 160, 0.11);
+}
+.header li {
+  font-weight: 600;
+  list-style: none;
+  color: #181933;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 21px;
+}
+.header .headerLinks {
+  display: flex;
+  align-items: center;
+
+  gap: 2rem;
+}
+.headerLinks a{
+    text-decoration: none;
+    color: black;
+}
+.headerLinks .active {
+    color: #0051a0;
+}
+.header img {
+  width: 148px;
+  height: 63px;
+  flex-shrink: 0;
+}
+.header button {
+  width: 113px;
+  height: 56px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(304deg, #0051a0 48.43%, #198dff 100%);
+}
+.headerLinks img {
+  width: 17.752px;
+  height: 21.5px;
+}
+.headerLinks button span {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  margin-right: 5px;
+}
+
+.aboutUs-hero{
+ display: flex;
+  justify-content: space-between;
+  padding: 3rem 8rem;
+  padding-right: 15rem;
+}
+.aboutUs-hero img{
+    width: 550px;
+height: 366px;
+object-fit: contain;
+}
+.label {
+  width: 481px;
+  height: 108px;
+ 
+}
+
+.label .label-heading {
+font-family: Mochiy Pop One;
+  font-weight: 400;
+  color: transparent;
+  font-size: 43px;
+  letter-spacing: 0;
+  line-height: 54px;
+}
+
+.label .text-wrapper {
+  color: #0051a0;
+}
+
+.label .span {
+  color: #332018;
+}
+.label-details{
+    width: 520px;
+height: 167px;
+flex-shrink: 0;
+color: rgba(0, 0, 0, 0.76);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+}
+.label button{
+    border-radius: 10px;
+background: linear-gradient(304deg, #0051A0 48.43%, #198DFF 100%);
+width: 147px;
+height: 56px;
+color: #FFF;
+border: 0;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; 
+}
+.aboutUs-lower{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutUs-lower img{
+    width: 770.236px;
+height: 471.113px;
+object-fit: contain;}
+.aboutUs-lower svg{
+    position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.aboutUs-lower p{
+    color: rgba(0, 0, 0, 0.76);
+text-align: center;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+width: 699px;
+height: 194px;
+flex-shrink: 0;
+}
+.footLogo{
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 248px;
+height: 105px;
+flex-shrink: 0;
+}
+footer{
+       display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+.footer{
+padding-top: 3rem;
+text-align: center;
+    width: 1056px;
+height: 350px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+border-radius: 15px;
+background: #DDE4FD;
+}
+.footer span{
+    color: rgba(38, 48, 64, 0.43);
+text-align: center;
+font-family: Mochiy Pop One;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 10rem;
+}
+.footer p{
+    color: #262F40;
+text-align: center;
+font-family: Open Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer a{
+    border-radius: 30px;
+background: rgba(0, 81, 160, 0.08);
+width: 81px;
+height: 31px;
+flex-shrink: 0;
+padding: 5px;
+text-decoration: none;
+color: #0051A0;
+text-align: center;
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footRedirectors{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.lowFooter{
+    border-radius: 15px;
+background: #FFF;
+width: 1010px;
+height: 79px;
+flex-shrink: 0;
+margin-top: 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2rem;
+}
+.lowFooter p{
+    color: rgba(26, 24, 51, 0.64);
+text-align: center;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.lowFooter svg{
+    width: 26px;
+height: 26px;
+flex-shrink: 0;
+}
